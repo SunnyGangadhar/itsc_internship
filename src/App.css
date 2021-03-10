@@ -84,7 +84,7 @@
   
 }
 .schedule-background .date p {
-  background: #fff;
+  background: rgb(255, 255, 255);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

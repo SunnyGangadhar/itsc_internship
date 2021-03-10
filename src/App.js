@@ -19,8 +19,8 @@ function App() {
         <a className="navbar-brand" href="/">
           <img
             src="https://itexpo20.live/static/Landing-ExpoLogo.f6ac3146.png"
-            width="30"
-            height="30"
+            width="200"
+            height="60"
             alt="logo"
           ></img>
         </a>
