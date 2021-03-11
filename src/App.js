@@ -65,6 +65,23 @@ function App() {
         </Route>
       </Switch>
     </div>
+
+    <div class="d-flex flex-row">
+  <footer class="footer">
+    <div>
+      <a href = "https://www.uc.edu/"> University of Cincinnati</a>
+    </div>
+    <div class="univ_image">
+    <img
+            src="https://d2jyir0m79gs60.cloudfront.net/college/logos/University_of_Cincinnati.jpg"
+            width="50"
+            height="50"
+            alt="logo"
+          ></img> 
+    </div>
+  </footer>
+</div>
+
   </Router>
   );
 }
