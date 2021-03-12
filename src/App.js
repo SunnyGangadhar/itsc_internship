@@ -18,9 +18,9 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="/">
           <img
-            src="https://itexpo20.live/static/Landing-ExpoLogo.f6ac3146.png"
-            width="200"
-            height="60"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWSv5Wb0BsFX8EKwTwZGrrdsfxG8ND9n0JA&usqp=CAU"
+            width="80"
+            height="80"
             alt="logo"
           ></img>
         </a>
@@ -46,10 +46,14 @@ function App() {
                 VEaaS
               </Link>
             </li>
-          </ul>
+            <li className="search_icon">
+              <Link to="/search" className="nav-link">
+                Search
+              </Link>
+            </li>
+          </ul>   
         </div>
       </nav>
-
       <Switch>
         <Route exact path="/">
           <Home />
@@ -64,9 +68,8 @@ function App() {
           <Veaasfrom />
         </Route>
       </Switch>
-    </div>
 
-    <div class="d-flex flex-row">
+      {/* <div class="d-flex bg-secondary text-black">
   <footer class="footer">
     <div>
       <a href = "https://www.uc.edu/"> University of Cincinnati</a>
@@ -80,8 +83,9 @@ function App() {
           ></img> 
     </div>
   </footer>
-</div>
+</div> */}
 
+    </div>
   </Router>
   );
 }
